@@ -1,4 +1,3 @@
-Descripción
 Este es un proyecto web para gestionar una concesionaria de autos. La aplicación permite a los usuarios explorar el inventario de vehículos, consultar información detallada de cada auto y contactar a la concesionaria para más información. 
 
 Tecnologías Utilizadas:
