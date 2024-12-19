@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo - AutoSport</title>
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="AutoSport Logo">
+        <nav>
+            <ul>
+                <li><a href="index.html#home">Inicio</a></li>
+                <li><a href="index.html#about">Acerca de nosotros</a></li>
+                <li><a href="services.html">Servicios</a></li>
+                <li><a href="cataloge.html">Catálogo</a></li>
+                <li><a href="index.html#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Catálogo de Autos</h1>
+            <p>Explora nuestra amplia gama de autos disponibles para la venta.</p>
+            <a href="#catalogue" class="scroll-down">&#x25BC;</a> <!-- Flecha hacia abajo -->
+        </div>
+    </section>
+    <section id="catalogue" class="catalogue">
+        <div class="container">
+            <h2>Nuestros Autos</h2>
+            <div class="car-listing-wrapper">
+                <div class="car-listing" id="car-listing">
+                    <div class="car-item">
+                        <img src="images/cataloge/fiesta16titanium.jpeg" alt="Car 1">
+                        <h3>Modelo de Auto 1</h3>
+                        <p>Descripción breve del auto 1.</p>
+                    </div>
+                    <div class="car-item">
+                        <img src="images/cataloge/amarok20.jpeg" alt="Car 2">
+                        <h3>Modelo de Auto 2</h3>
+                        <p>Descripción breve del auto 2.</p>
+                    </div>
+                    <div class="car-item">
+                        <img src="images/cataloge/fiatfastback.jpeg" alt="Car 3">
+                        <h3>Modelo de Auto 3</h3>
+                        <p>Descripción breve del auto 3.</p>
+                    </div>
+                    <div class="car-item">
+                        <img src="images/cataloge/toyota28.jpeg" alt="Car 4">
+                        <h3>Modelo de Auto 4</h3>
+                        <p>Descripción breve del auto 4.</p>
+                    </div>
+                    <!-- Agrega más car-item según sea necesario -->
+                </div>
+                <a href="#" class="scroll-right" id="scroll-right">&#x25B6;</a> <!-- Flecha hacia la derecha -->
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2023 AutoSport. Todos los derechos reservados.</p>
+    </footer>
+
+    <script>
+        document.getElementById('scroll-right').addEventListener('click', function(e) {
+            e.preventDefault();
+            const carListing = document.getElementById('car-listing');
+            carListing.scrollBy({
+                left: carListing.clientWidth, // Desplaza el ancho del contenedor visible
+                behavior: 'smooth'
+            });
+        });
+    </script>
+</body>
+</html>
