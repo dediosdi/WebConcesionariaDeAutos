@@ -5,4 +5,4 @@ HTML5: Estructura el contenido.
 CSS3: Estilos y diseño responsivo.
 JavaScript: Interactividad y funcionalidades dinámicas.
 Bootstrap: Diseño rápido y responsivo.
-[CLICK ACÁ PARA VER COMO VIENE](https://dediosdi.github.io/WebConcesionariaDeAutos/)
+Podés chequear como esta quedando desde [acá](https://dediosdi.github.io/WebConcesionariaDeAutos/)
